@@ -10,6 +10,7 @@ public class HomeController {
 
     @RequestMapping("/")
     private String home() {
+
         log.info("home controller");
         return "home";
     }
